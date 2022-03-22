@@ -1,0 +1,36 @@
+@import '../../../../style/variable.less';
+
+.select-picture {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  .label {
+    .required {
+      color: @color-red;
+    }
+    width: 200px;
+    margin-top: 10px;
+  }
+
+  .pic-item {
+    box-sizing: border-box;
+    margin-right: 10px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    img {
+      width: 100%;
+    }
+  }
+
+  .pic-item-active {
+    border: 2px solid @color-blue;
+  }
+}
+.error-info {
+  color: @color-red;
+  height: 10px;
+}

@@ -1,0 +1,60 @@
+@import '../../style/variable.less';
+
+.login-page {
+  -webkit-app-region: drag;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  .login-content {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .login-logo {
+      display: flex;
+      background-color: @color-red;
+      color: @color-white;
+      padding: 20px 80px;
+      border-radius: 150px;
+      font-size: 24px;
+      margin: 30px;
+
+      .login-logo-pic {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: url('../../assets/logo/logo.jpg');
+        background-size: 100% 100%;
+      }
+      .login-logo-text {
+        .minor-text {
+          font-size: 10px;
+          text-align: center;
+        }
+        margin: auto 0;
+        margin-left: 20px;
+      }
+    }
+    .login-form {
+      margin-top: 60px;
+    }
+    .login-input {
+      border-radius: 30px;
+      padding: 4px 10px;
+      line-height: 40px;
+      width: 90%;
+    }
+
+    .login-button {
+      border-radius: 20px;
+      margin-top: 40px;
+      margin-left: 18px;
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+    }
+  }
+}

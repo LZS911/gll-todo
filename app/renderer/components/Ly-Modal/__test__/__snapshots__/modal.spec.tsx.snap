@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test ly modal should add className 1`] = `
+<div>
+  <div
+    class="ly-modal-root"
+    data-testid="ly-modal"
+  >
+    <div
+      class="ly-modal-mask"
+    />
+    <div
+      class="ly-modal-wrap animate__animated animate__zoomIn"
+    >
+      <div
+        class="ly-modal test-modal-class"
+      >
+        <div
+          class="ly-modal-content"
+        >
+          <div
+            class="ly-modal-content-title"
+          >
+            test modal
+          </div>
+          <i
+            class="ly-modal-content-icon"
+            data-testid="modal-exit-icon"
+          >
+            x
+          </i>
+          <div
+            class="ly-modal-content-children"
+          />
+          <div
+            class="ly-modal-content-footer"
+          >
+            <button
+              class="ly-button "
+              data-testid="ly-button-modal-cancel-btn"
+            >
+              取消
+            </button>
+            <button
+              class="ly-button "
+              data-testid="ly-button-modal-confirm-btn"
+            >
+              确认
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`test ly modal should render exit by default model 1`] = `
+<div>
+  <div
+    class="ly-modal-root"
+    data-testid="ly-modal"
+  >
+    <div
+      class="ly-modal-mask"
+    />
+    <div
+      class="ly-modal-wrap animate__animated animate__zoomIn"
+    >
+      <div
+        class="ly-modal"
+      >
+        <div
+          class="ly-modal-content"
+        >
+          <div
+            class="ly-modal-content-title"
+          >
+            test modal
+          </div>
+          <div
+            class="ly-modal-content-children"
+          />
+          <div
+            class="ly-modal-content-footer"
+          >
+            <button
+              class="ly-button "
+              data-testid="ly-button-modal-confirm-btn"
+            >
+              确认
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`test ly modal should render modal title 1`] = `
+<div>
+  <div
+    class="ly-modal-root"
+    data-testid="ly-modal"
+  >
+    <div
+      class="ly-modal-mask"
+    />
+    <div
+      class="ly-modal-wrap animate__animated animate__zoomIn"
+    >
+      <div
+        class="ly-modal"
+      >
+        <div
+          class="ly-modal-content"
+        >
+          <div
+            class="ly-modal-content-title"
+          >
+            test modal
+          </div>
+          <i
+            class="ly-modal-content-icon"
+            data-testid="modal-exit-icon"
+          >
+            x
+          </i>
+          <div
+            class="ly-modal-content-children"
+          />
+          <div
+            class="ly-modal-content-footer"
+          >
+            <button
+              class="ly-button "
+              data-testid="ly-button-modal-cancel-btn"
+            >
+              取消
+            </button>
+            <button
+              class="ly-button "
+              data-testid="ly-button-modal-confirm-btn"
+            >
+              确认
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

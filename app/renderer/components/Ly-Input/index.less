@@ -1,0 +1,37 @@
+@import '../../style/variable.less';
+.ly-input {
+  border-radius: 6px;
+  border: 1px solid @color-border;
+  text-indent: 10px;
+  cursor: text;
+  line-height: 28px;
+  width: 100%;
+  margin-bottom: 20px;
+
+  input {
+    border: none;
+    outline: none;
+    width: 90%;
+    height: 100%;
+    background-color: inherit;
+    &::placeholder {
+      color: #ddd;
+    }
+  }
+}
+
+.ly-input-focus {
+  transition: border 0.4s ease-out 0s;
+  border: 1px solid @color-blue;
+}
+
+.ly-input-error {
+  margin-bottom: 0;
+  transition: border 0.4s ease-out 0s;
+  border: 1px solid @color-red;
+}
+
+.input-error-message {
+  transition: all 1s ease-out 0s;
+  color: @color-red;
+}

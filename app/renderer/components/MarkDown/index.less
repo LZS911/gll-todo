@@ -1,0 +1,34 @@
+.markdown-container-mini {
+  .mde-textarea-wrapper {
+    height: 100px;
+    .mde-text {
+      height: 100% !important;
+    }
+  }
+  .mde-preview {
+    height: 100px !important;
+  }
+}
+
+.markdown-container-large {
+  .mde-textarea-wrapper {
+    height: 300px;
+    .mde-text {
+      height: 100% !important;
+    }
+  }
+  .mde-preview {
+    height: 400px !important;
+    overflow-y: auto;
+  }
+}
+
+.markdown-container-read-only {
+  button {
+    display: none;
+  }
+  .mde-header {
+    height: 0;
+    border-bottom: 0;
+  }
+}

@@ -1,0 +1,109 @@
+@import '.././../style/variable.less';
+.ly-calendar {
+  box-sizing: border-box;
+  width: 100%;
+  .calendar-table {
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+  }
+
+  .calendar-header {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .calendar-switch-model {
+      margin-left: 30px;
+    }
+  }
+
+  tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+  }
+  th {
+    height: auto;
+    padding: 0 12px 5px 0;
+    line-height: 18px;
+    font-weight: normal;
+    position: relative;
+    min-width: 24px;
+    width: 46px;
+  }
+
+  .ly-picker-cell {
+    cursor: pointer;
+    box-sizing: border-box;
+    border-spacing: 0;
+    color: rgba(0, 0, 0, 0.25);
+    &:hover {
+      background-color: #eee;
+      transition: background 0.4s;
+    }
+    .ly-picker-cell-inner {
+      display: block;
+      width: auto;
+      height: auto;
+      margin: 0 4px;
+      padding: 4px 8px 0;
+      border: 0;
+      border-top: 1px solid #f0f0f0;
+      border-radius: 0;
+      .picker-date-value {
+        line-height: 24px;
+        transition: color 0.3s;
+      }
+      .picker-date-content {
+        position: static;
+        width: auto;
+        height: 86px;
+        overflow-y: auto;
+        color: rgba(0, 0, 0, 0.85);
+        line-height: 1.5715;
+        text-align: left;
+
+        .calendar-content-value {
+          font-size: 12px;
+        }
+
+        .calendar-content-status {
+          position: relative;
+          top: -1px;
+          display: inline-block;
+          width: 6px;
+          height: 6px;
+          vertical-align: middle;
+          border-radius: 50%;
+        }
+        .content-plan-status-successful {
+          background-color: @text-color-green;
+        }
+        .content-plan-status-toDo {
+          background-color: @border-color-red-light;
+        }
+        .content-plan-status-underway {
+          background-color: @text-color-orange;
+        }
+        .content-plan-status-failed {
+          background-color: @text-color-gray-dark;
+        }
+      }
+    }
+  }
+  .ly-picker-cell-in-view {
+    color: rgba(0, 0, 0, 0.85);
+  }
+
+  .ly-picker-cell-toDay {
+    border-top: 2px solid @color-blue;
+  }
+
+  .ly-picker-cell-select {
+    background: @color-purple;
+    &:hover {
+      background: @color-purple;
+    }
+  }
+}

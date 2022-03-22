@@ -1,0 +1,21 @@
+@import '../../style/variable.less';
+
+.ly-button {
+  outline: none;
+  border: 0px solid @color-border;
+
+  padding: 6px 16px;
+  border-radius: 4px;
+
+  background-color: @color-blue;
+  color: @color-white;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #1890ff;
+  }
+  &:active {
+    transform: scale(0.85);
+    transition: transform 0.5s;
+  }
+}

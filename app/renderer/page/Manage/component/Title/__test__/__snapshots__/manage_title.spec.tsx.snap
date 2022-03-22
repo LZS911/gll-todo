@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test title should render link content 1`] = `
+<div>
+  <div
+    class="title"
+  >
+    <div
+      class="major-title"
+    >
+      this is major
+    </div>
+    <div
+      class="ant-space ant-space-horizontal ant-space-align-center"
+    >
+      <div
+        class="ant-space-item"
+        style="margin-right: 8px;"
+      >
+        <div
+          class="minor-title"
+        >
+          this is minor
+        </div>
+      </div>
+      <div
+        class="ant-space-item"
+      >
+        <div
+          class="link-title"
+        >
+          <span>
+            this is link
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`test title should render major and minor content 1`] = `
+<div>
+  <div
+    class="title"
+  >
+    <div
+      class="major-title"
+    >
+      this is major
+    </div>
+    <div
+      class="ant-space ant-space-horizontal ant-space-align-center"
+    >
+      <div
+        class="ant-space-item"
+        style="margin-right: 8px;"
+      >
+        <div
+          class="minor-title"
+        >
+          this is minor
+        </div>
+      </div>
+      <div
+        class="ant-space-item"
+      >
+        <div
+          class="link-title"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

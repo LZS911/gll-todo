@@ -1,0 +1,13 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 0,
+  "username": "gll",
+  "password": "123",
+  "database": "treasureBowl",
+  "synchronize": true,
+  "entities": ["entity/*.ts"],
+  "cli": {
+    "entitiesDir": "entity"
+  }
+}

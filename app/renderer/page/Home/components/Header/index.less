@@ -1,0 +1,103 @@
+@import '../../../../style/variable.less';
+
+.header-content {
+  -webkit-app-region: drag;
+  display: flex;
+  min-width: 1000px;
+  max-width: 100%;
+  padding: 40px 10px;
+  height: 60px;
+  align-items: center;
+  box-shadow: 0 0 8px rgb(0 0 0 / 30%);
+  justify-content: space-between;
+  .header-logo {
+    display: flex;
+    min-width: 160px;
+    background-color: @color-red;
+    color: @color-white;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 0 20px 0 60px;
+    .header-logo-pic {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: url('../../../../assets//logo/logo.jpg');
+      background-size: 100% 100%;
+      font-size: 20px;
+    }
+    .header-logo-text {
+      .minor-text {
+        font-size: 8px;
+        text-align: center;
+      }
+      margin: auto 0;
+      margin-left: 20px;
+    }
+  }
+
+  .header-tabs {
+    display: flex;
+    min-width: 400px;
+    .tab-item {
+      line-height: 60px;
+      padding: 0 14px;
+      border-bottom: 4px solid transparent;
+      cursor: pointer;
+
+      &:hover {
+        background-color: @color-purple;
+        border-bottom-color: @color-blue;
+      }
+
+      a {
+        display: block;
+        line-height: 60px;
+        font-size: 16px;
+        background-color: transparent;
+        outline: none;
+        cursor: pointer;
+        transition: color 0.3s;
+      }
+    }
+
+    .tab-item-active {
+      background-color: @color-purple;
+      border-bottom-color: @color-blue;
+    }
+  }
+  .header-search {
+    border-radius: 30px;
+    padding: 4px 10px;
+    line-height: 20px;
+    min-width: 200px;
+    margin-bottom: 0;
+    margin-right: 1%;
+  }
+  .header-add {
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+  .header-pic {
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    img {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 1410px) {
+  .header-content {
+    .header-search {
+      margin-right: 5%;
+    }
+  }
+}

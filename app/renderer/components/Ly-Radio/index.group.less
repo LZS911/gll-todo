@@ -1,0 +1,27 @@
+@import '../../style/variable.less';
+
+.ly-radio-group {
+  display: inline-block;
+
+  .ly-radio-wrapper {
+    margin: 0;
+
+    .ly-radio-button {
+      border-right: 0;
+      border-radius: 0;
+    }
+
+    &:first-child {
+      .ly-radio-button {
+        border-radius: @border-radius 0 0 @border-radius;
+      }
+    }
+
+    &:last-child {
+      .ly-radio-button {
+        border-radius: 0 @border-radius @border-radius 0;
+        border-right: @border;
+      }
+    }
+  }
+}

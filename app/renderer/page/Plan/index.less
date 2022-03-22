@@ -1,0 +1,22 @@
+@import '../../style/variable.less';
+.plan-content {
+  height: 100%;
+  .plan-content-box {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .plan-item-toDo {
+      border-top-color: @border-color-red-light;
+    }
+    .plan-item-successful {
+      border-top-color: @text-color-green;
+    }
+    .plan-item-underway {
+      border-top-color: @text-color-orange;
+    }
+    .plan-item-failed {
+      border-top-color: @text-color-gray-dark;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+    "version": "0.2",
+    "language": "en",
+    "maxNumberOfProblems": 10000,
+    "dictionaries": [
+        "typescript",
+        "node",
+        "html",
+        "css",
+        "less",
+        "powershell",
+        "dev-env",
+        "antd-ui"
+    ],
+    "dictionaryDefinitions": [],
+    "flagWords": [],
+    "ignorePaths": [
+        "package.json",
+        "**/package.json",
+        "**/cSpell.json",
+        "**/tslint.json",
+        "**/tsconfig.json",
+        "**/tsconfig.*.json",
+        ".vscode/**",
+        ".stylelintrc.js",
+        ".eslintrc.json",
+        "**/node_modules/**"
+    ],
+    "words": [
+        "appenders",
+        "bgcolor",
+        "bodyparser",
+        "hurr",
+        "nums",
+        "reduxjs",
+        "Sider",
+        "sider",
+        "Snackbars",
+        "snackbars",
+        "submenu",
+        "typeorm",
+        "unhide"
+    ]
+}

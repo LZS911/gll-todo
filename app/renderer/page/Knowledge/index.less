@@ -1,0 +1,23 @@
+@import '../../style/variable.less';
+.knowledge-page {
+  .filter-header {
+    display: flex;
+    .filter-knowledge-header-form {
+      width: 100%;
+      max-width: 700px;
+      .search-input {
+        width: 50%;
+      }
+    }
+  }
+
+  .knowledge-content {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .plan-item-knowledge {
+      border-top-color: @text-color-green !important;
+    }
+  }
+}
